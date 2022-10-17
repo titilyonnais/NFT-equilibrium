@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(217, 54%, 11%);
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+}
+.img-equ {
+    width: 250px;
+    border-radius: 10px;
+}
+.card {
+    padding: 20px;
+    text-align: start;
+    background: hsl(216, 50%, 16%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+.name-product {
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+.description {
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+.prize {
+    display: flex;
+    align-items: center;
+}
+.prize p {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.img-logo-equ {
+    height: 20px;
+    margin-right: 10px;
+}
+.date {
+    display: flex;
+    align-items: center;
+}
+.date p {
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+.img-clock {
+    margin-right: 5px;
+}
+.prize-and-date {
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.profil {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+}
+.img-avatar {
+    width: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.person-description {
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+.person-description span {
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
